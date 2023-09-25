@@ -145,7 +145,7 @@ function spawnEnemies(){
 
 		enemies.push(new Enemy(x, y, radius, color, velocity))
 
-	}, 1000)
+	}, 3000)
 }
 let animationId
 let score = 0
